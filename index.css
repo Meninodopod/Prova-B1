@@ -1,0 +1,47 @@
+nav{display: flex;
+align-items: center;
+background-color: black;
+justify-content: center;
+margin: 0%;
+height: 70px;}
+nav ul{list-style: none;
+    display: flex;
+    width: 100%;}
+nav ul li{width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+border-right: 2px white solid;
+color: rgba(93,247,223,255);
+font-style: normal;
+height: 50px;
+font-size: large;}
+li:hover {color: rgba(249,181,245,255);
+cursor: pointer;}
+li:nth-last-child(1){border-right: 2px;}
+body{margin: 0%;
+    background-color: rgba(93,247,223,255);}
+header img{width: 100%;}
+main p{font-size: large;}
+div{display: flex;
+display: inline-block;}
+.txt{float: left;
+width: 40%;
+height: 10%;
+margin-top: 2%;
+margin-left: 5%;
+margin-top: 15%;
+}
+.img{float: right;
+width: 40%;
+height: 10%;
+margin-top: 2%;}
+footer{background-color: blue;
+position: fixed;
+width: 100%;}
+
+
+
+
+
+
